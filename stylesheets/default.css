@@ -1,0 +1,230 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  background: #f2f2f2;
+  color: #666666;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 1em "Source Sans Pro", sans-serif;
+  line-height: 1.75em;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+header h1 {
+  background: url('/images/logo@2x.png') 0 50%/64px no-repeat;
+  font-size: 24px;
+  font-weight: normal;
+  height: 64px;
+  line-height: 64px;
+  margin: 26px 0 0 19px;
+  padding: 0 0 0 64px;
+}
+
+@media (max-width: 520px), (max-height: 420px) {
+  header h1 {
+    background: url('/images/logo@2x.png') 0 50%/32px no-repeat;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    margin: 13px 0 0 9px;
+    padding: 0 0 0 32px;
+  }
+}
+
+header h2 {
+  color: #6633cc;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 2em 2em 1em 2em;
+  text-align: center;
+}
+
+@media (max-width: 520px), (max-height: 420px) {
+  header h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding: 2em 2em 1.5em 2em;
+  }
+}
+
+section.body {
+  background: #fbfbfb;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  color: #4c4c4c;
+  padding: 2em 0;
+}
+
+@media (max-width: 520px), (max-height: 420px) {
+  section.body {
+    padding: 1em 0;
+  }
+}
+
+p.introduction {
+  margin: 1em auto;
+  max-width: 40em;
+  padding: 0 2em;
+  text-align: center;
+}
+
+@media (max-width: 820px) {
+  p.introduction {
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+div.components {
+  margin: 0 auto;
+  max-width: 75em;
+}
+
+div.components div {
+  box-sizing: border-box;
+  float: left;
+  margin: 0;
+  padding: 2em;
+  width: 33%;
+}
+
+@media (max-width: 820px) {
+  div.components div {
+    padding: 1em 2em;
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+h3 {
+  color: #6633cc;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+ul.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.links li {
+  display: inline;
+  margin: 0 4px 0 0;
+  padding: 0;
+}
+
+ul.links a {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  color: #6633cc;
+  font-size: 0.8em;
+  font-weight: 400;
+  padding: 4px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul.links a:hover {
+  background: #e5e5e5;
+}
+
+ul.links a:active {
+  background: #6633cc;
+  border: 1px solid #6633cc;
+  color: #e5e5e5;
+}
+
+p {
+  font-size: 1em;
+}
+
+p.platform {
+  color: #b2b2b2;
+  font-size: 0.8em;
+}
+
+footer {
+  padding: 3em 0 3em 0;
+}
+
+@media (max-width: 520px), (max-height: 420px) {
+  footer {
+    padding-top: 2em;
+  }
+}
+
+div.contact {
+  margin: 0 2em 4em 2em;
+  text-align: center;
+}
+
+@media (max-width: 520px), (max-height: 420px) {
+  div.contact {
+    margin-bottom: 2em;
+  }
+}
+
+div.contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div.contact li {
+  display: inline;
+  margin: 0 2px;
+  padding: 0;
+}
+
+div.contact a {
+  background-color: transparent;
+  border-radius: 12px;
+  color: #6633cc;
+  padding: 4px 12px;
+  text-decoration: none;
+}
+
+div.contact a:hover {
+  background-color: #e5e5e5;
+}
+
+div.contact a:active {
+  background-color: #6633cc;
+  color: #e5e5e5;
+}
+
+p.by {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0 2em;
+  padding: 0;
+}
+
+p.by a {
+  color: #666666;
+  text-decoration: underline;
+}

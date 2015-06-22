@@ -1,0 +1,12 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+safe: true
+
+# Custom
+google_analytics:
+  tracking_id: UA-59188189-2
+  config: "'auto'"
+title: Parity
+url: http://paritytrading.com

@@ -1,0 +1,3 @@
+# Custom
+google_analytics:
+  config: "{'cookieDomain': 'none'}"
