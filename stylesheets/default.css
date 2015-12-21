@@ -1,6 +1,6 @@
 html {
   -webkit-text-size-adjust: 100%;
-  background: #f2f2f2;
+  background: #fbfbfb;
   color: #666666;
   font-size: 100%;
   margin: 0;
@@ -15,12 +15,14 @@ body {
 }
 
 header {
+  background: #33cc99;
+  color: #ffffff;
   padding: 0;
   margin: 0;
 }
 
 header h1 {
-  background: url('/images/logo@2x.png') 0 50%/64px no-repeat;
+  background: url('/images/logo-light@2x.png') 0 50%/64px no-repeat;
   font-size: 24px;
   font-weight: normal;
   height: 64px;
@@ -31,7 +33,7 @@ header h1 {
 
 @media (max-width: 520px), (max-height: 420px) {
   header h1 {
-    background: url('/images/logo@2x.png') 0 50%/32px no-repeat;
+    background: url('/images/logo-light@2x.png') 0 50%/32px no-repeat;
     font-size: 12px;
     height: 32px;
     line-height: 32px;
@@ -41,7 +43,6 @@ header h1 {
 }
 
 header h2 {
-  color: #6633cc;
   font-size: 3em;
   font-weight: 300;
   line-height: 1.25em;
@@ -59,10 +60,6 @@ header h2 {
 }
 
 section.body {
-  background: #fbfbfb;
-  border-bottom: 1px solid #cccccc;
-  border-top: 1px solid #cccccc;
-  color: #4c4c4c;
   padding: 2em 0;
 }
 
@@ -113,7 +110,7 @@ div.components div {
 }
 
 h3 {
-  color: #6633cc;
+  color: #333333;
   font-size: 1.5em;
   font-weight: normal;
   margin: 0;
@@ -137,9 +134,9 @@ ul.links li {
 }
 
 ul.links a {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #3399e5;
   border-radius: 12px;
-  color: #6633cc;
+  color: #3399e5;
   font-size: 0.8em;
   font-weight: 400;
   padding: 4px 8px;
@@ -147,14 +144,9 @@ ul.links a {
   text-transform: uppercase;
 }
 
-ul.links a:hover {
-  background: #e5e5e5;
-}
-
-ul.links a:active {
-  background: #6633cc;
-  border: 1px solid #6633cc;
-  color: #e5e5e5;
+ul.links a:active, ul.links a:hover {
+  background: #3399e5;
+  color: #ffffff;
 }
 
 p {
@@ -167,6 +159,8 @@ p.platform {
 }
 
 footer {
+  background: #666666;
+  color: #999999;
   padding: 3em 0 3em 0;
 }
 
@@ -201,20 +195,13 @@ div.contact li {
 }
 
 div.contact a {
-  background-color: transparent;
-  border-radius: 12px;
-  color: #6633cc;
+  color: #33cc99;
   padding: 4px 12px;
   text-decoration: none;
 }
 
-div.contact a:hover {
-  background-color: #e5e5e5;
-}
-
-div.contact a:active {
-  background-color: #6633cc;
-  color: #e5e5e5;
+div.contact a:active, div.contact a:hover {
+  color: #ffffff;
 }
 
 p.by {
@@ -225,6 +212,5 @@ p.by {
 }
 
 p.by a {
-  color: #666666;
-  text-decoration: underline;
+  color: #999999;
 }
