@@ -203,14 +203,3 @@ div.contact a {
 div.contact a:active, div.contact a:hover {
   color: #ffffff;
 }
-
-p.by {
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0 2em;
-  padding: 0;
-}
-
-p.by a {
-  color: #999999;
-}
